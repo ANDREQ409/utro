@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- ============================================================
+       ДАННЫЕ КЛИЕНТА ДЛЯ ПОИСКОВИКОВ — ПРИ НОВОМ САЙТЕ МЕНЯТЬ ЗДЕСЬ
+       (остальные данные клиента — в файле config.js)
+       ============================================================ -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кофейня „Утро" — кофе и десерты в Красноуфимске</title>
+  <meta name="description" content="Кофейня „Утро" в Красноуфимске: свежая обжарка, капучино, раф и десерты собственной выпечки. Онлайн-заказ, готовим за 5 минут. Тел.: +7 (900) 123-45-67.">
+  <!-- После публикации заменить canonical и og:url на реальный адрес сайта -->
+  <link rel="canonical" href="https://andreq409.github.io/utro/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%236f4e37'/%3E%3Cpath%20d='M16%2026h26v8a12%2012%200%200%201-12%2012h-2a12%2012%200%200%201-12-12z'%20fill='none'%20stroke='%23fff'%20stroke-width='4'%20stroke-linejoin='round'/%3E%3Cpath%20d='M42%2028h5a6%206%200%200%201%200%2012h-4'%20fill='none'%20stroke='%23fff'%20stroke-width='4'%20stroke-linecap='round'/%3E%3Cpath%20d='M24%2020c0-2.5%202-2.5%202-5'%20fill='none'%20stroke='%23fff'%20stroke-width='3'%20stroke-linecap='round'/%3E%3Cpath%20d='M31%2020c0-2.5%202-2.5%202-5'%20fill='none'%20stroke='%23fff'%20stroke-width='3'%20stroke-linecap='round'/%3E%3C/svg%3E">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Кофейня „Утро"">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Кофейня „Утро" — кофе и десерты в Красноуфимске">
+  <meta property="og:description" content="Свежая обжарка, десерты собственной выпечки. Онлайн-заказ, готовим за 5 минут.">
+  <meta property="og:url" content="https://andreq409.github.io/utro/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Кофейня „Утро" — кофе и десерты в Красноуфимске">
+  <meta name="twitter:description" content="Свежая обжарка, десерты собственной выпечки. Онлайн-заказ, готовим за 5 минут.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src https://formspree.io; frame-src https://yandex.ru; form-action https://formspree.io; base-uri 'none'; upgrade-insecure-requests">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Кофейня „Утро"",
+    "description": "Кофейня в Красноуфимске: кофе свежей обжарки и десерты собственной выпечки.",
+    "url": "https://andreq409.github.io/utro/",
+    "telephone": "+7 (900) 123-45-67",
+    "email": "zakaz@utro-coffee.ru",
+    "priceRange": "₽₽",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Ленина, 10",
+      "addressLocality": "Красноуфимск",
+      "addressRegion": "Свердловская область",
+      "addressCountry": "RU"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "08:00",
+        "closes": "21:00"
+      }
+    ],
+    "hasMap": "https://yandex.ru/maps/?text=Красноуфимск,+улица+Ленина,+10"
+  }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 10h11v6a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/>
+            <path d="M16 11h2a3 3 0 0 1 0 6h-2"/>
+            <path d="M8 3c0 2-2 2-2 4M12 3c0 2-2 2-2 4"/>
+          </svg>
+        </span>
+        <span class="logo__text">Кофейня&nbsp;„Утро"</span>
+      </a>
+
+      <nav class="nav" id="siteNav">
+        <a class="nav__link" href="#services">Меню</a>
+        <a class="nav__link" href="#booking">Заказ</a>
+        <a class="nav__link" href="#contacts">Контакты</a>
+        <a class="nav__link nav__link--phone" id="navPhone" href="#"></a>
+      </nav>
+
+      <button class="burger" id="burgerBtn" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Кофе, с которого начинается день</h1>
+          <p class="hero__subtitle">
+            Зерно свежей обжарки, десерты собственной выпечки и лучший капучино в городе.
+            Закажите онлайн — всё будет готово к вашему приходу.
+          </p>
+          <div class="hero__actions">
+            <a href="#booking" class="btn btn--primary">Заказать онлайн</a>
+            <a href="#services" class="btn btn--ghost">Смотреть меню и цены</a>
+          </div>
+          <ul class="hero__features">
+            <li class="hero__feature">Зерно свежей обжарки</li>
+            <li class="hero__feature">Выпечка каждое утро</li>
+            <li class="hero__feature">Приготовим за 5 минут</li>
+          </ul>
+        </div>
+        <figure class="hero__media">
+          <img src="hero-coffee.jpg.jpg" alt="Чашка свежего кофе на кофейных зёрнах" width="1200" height="675">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section__title">Меню и цены</h2>
+        <p class="section__subtitle">Актуальные позиции и сезонные specials уточняйте у бариста.</p>
+        <div class="services" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section--tinted" id="booking">
+      <div class="container booking">
+        <div class="booking__info">
+          <h2 class="section__title">Онлайн-заказ</h2>
+          <p class="booking__text">
+            Оставьте заказ — и он будет готов к вашему приходу.
+            Обычно готовим за 5–7 минут.
+          </p>
+          <ul class="booking__list" id="bookingPoints"></ul>
+        </div>
+
+        <form class="form" id="bookingForm" novalidate>
+          <div class="form__row">
+            <label class="form__field">
+              <span class="form__label">Ваше имя *</span>
+              <input type="text" name="name" class="form__input" placeholder="Иван" autocomplete="name" required>
+              <span class="form__error" data-error-for="name"></span>
+            </label>
+            <label class="form__field">
+              <span class="form__label">Телефон *</span>
+              <input type="tel" name="phone" class="form__input" placeholder="+7 (___) ___-__-__" autocomplete="tel" required>
+              <span class="form__error" data-error-for="phone"></span>
+            </label>
+          </div>
+
+          <div class="form__row">
+            <label class="form__field">
+              <span class="form__label">Что заказать *</span>
+              <select name="service" class="form__input form__input--select" required>
+                <option value="">Выберите из меню</option>
+              </select>
+              <span class="form__error" data-error-for="service"></span>
+            </label>
+            <div class="form__row-inner">
+              <label class="form__field">
+                <span class="form__label">Дата</span>
+                <input type="date" name="date" class="form__input">
+                <span class="form__error" data-error-for="date"></span>
+              </label>
+              <label class="form__field">
+                <span class="form__label">Время</span>
+                <input type="time" name="time" class="form__input" min="08:00" max="21:00">
+                <span class="form__error" data-error-for="time"></span>
+              </label>
+            </div>
+          </div>
+
+          <label class="form__field">
+            <span class="form__label">Комментарий</span>
+            <textarea name="comment" class="form__input form__input--textarea" rows="3"
+              placeholder="Например: два капучино, один без сахара; заберу в 9:30"></textarea>
+          </label>
+
+          <button type="submit" class="btn btn--primary form__submit">Отправить заказ</button>
+          <p class="form__note">Отправляя заказ, вы соглашаетесь на обработку персональных данных.</p>
+
+          <div class="form__success" id="formSuccess" hidden>
+            <strong>Заказ принят!</strong>
+            Он уже готовится — подойдите к указанному времени или дождитесь звонка.
+          </div>
+
+          <div class="form__fail" id="formFail" hidden>
+            <strong>Не получилось отправить заказ.</strong>
+            Позвоните нам: <a href="tel:+79001234567">+7 (900) 123-45-67</a>
+          </div>
+
+          <input type="text" name="_gotcha" class="form__gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="contacts">
+      <div class="container">
+        <h2 class="section__title">Контакты</h2>
+        <div class="contacts">
+          <ul class="contacts__list" id="contactsList"></ul>
+          <div class="map">
+            <iframe class="map__frame" id="mapFrame" title="Карта — как нас найти" loading="lazy" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="site-footer__name" id="footerName">Кофейня „Утро"</span>
+      <span class="site-footer__copy">© 2026. Демо-сайт: кофейня „Утро".</span>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
