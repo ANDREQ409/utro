@@ -326,14 +326,14 @@ body {
 }
 
 .service-card__price {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 400;
   color: var(--color-primary);
 }
 
 .service-card__weight {
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   color: var(--color-text-muted);
 }
 
