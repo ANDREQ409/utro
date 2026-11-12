@@ -44,37 +44,50 @@ const SITE_CONFIG = {
       id: "espresso",
       title: "Эспрессо",
       description: "Классика: плотный, насыщенный, 30 мл бодрости.",
-      price: "120 ₽"
+      price: "120 ₽",
+      weight: "30 мл"
     },
     {
       id: "cappuccino",
       title: "Капучино",
       description: "Эспрессо и бархатное молоко. Наш самый популярный напиток.",
-      price: "180 ₽"
+      price: "180 ₽",
+      weight: "250 мл"
     },
     {
       id: "latte",
       title: "Латте",
       description: "Нежный, молочный, с мягкой пенкой. Можно с сиропом.",
-      price: "200 ₽"
+      price: "200 ₽",
+      weight: "300 мл"
     },
     {
       id: "raf",
       title: "Раф",
       description: "Сливочный десертный кофе. Гости всегда просят ещё один.",
-      price: "250 ₽"
+      price: "250 ₽",
+      weight: "300 мл"
     },
     {
-      id: "croissant",
-      title: "Круассан",
-      description: "Хрустящие слойки с миндалём. Печём каждое утро.",
-      price: "90 ₽"
+      id: "croissant-mini",
+      title: "Круассан мини",
+      description: "Хрустящая слойка с миндалём на один укус. Печём каждое утро.",
+      price: "100 ₽",
+      weight: "90 г"
+    },
+    {
+      id: "croissant-maxi",
+      title: "Круассан макси",
+      description: "Большая хрустящая слойка с миндалём. Печём каждое утро.",
+      price: "150 ₽",
+      weight: "180 г"
     },
     {
       id: "cheesecake",
       title: "Чизкейк",
       description: "Кремовый десерт собственной выпечки с ягодным соусом.",
-      price: "220 ₽"
+      price: "220 ₽",
+      weight: "130 г"
     }
   ]
 };

@@ -331,6 +331,12 @@ body {
   color: var(--color-primary);
 }
 
+.service-card__weight {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
 .service-card__book {
   padding: 9px 16px;
   font-size: 14px;

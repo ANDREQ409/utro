@@ -63,7 +63,7 @@ function renderServices() {
       <h3 class="service-card__title">${service.title}</h3>
       <p class="service-card__desc">${service.description}</p>
       <div class="service-card__footer">
-        <span class="service-card__price">${service.price}</span>
+        <span class="service-card__price">${service.price} <span class="service-card__weight">· ${service.weight}</span></span>
         <button type="button" class="btn btn--primary service-card__book" data-service="${service.id}">${buttonLabel}</button>
       </div>
     </article>
@@ -74,7 +74,7 @@ function fillServiceSelect() {
   cfg.services.forEach(service => {
     const option = document.createElement("option");
     option.value = service.id;
-    option.textContent = `${service.title} (${service.price})`;
+    option.textContent = `${service.title} (${service.price} · ${service.weight})`;
     serviceSelect.appendChild(option);
   });
 }
